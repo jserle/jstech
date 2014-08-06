@@ -1,0 +1,70 @@
+/***** SMARTPHONES *****/
+
+@media all and (max-width: 767px){
+
+	.mobile-toggle{ display: block; cursor: pointer; font-size: 40px; top: 25px; }
+	#menu li{ float: none; margin: 0px 0px 11px 0px; }
+	#navigation{ position: fixed !important; background: #0158b7 !important; top: 0px;  }
+	#navigation .text-right{ text-align: left !important; }
+	.text-divider, .right-divider, .left-divider{ display: none; }
+	#services{ background: none !important; background-color: #f6f6f6 !important; display: block !important; }
+	#services:before{ width: 0px !important; height: 0px !important; }
+	.service-list{ width: 100%; }
+	.service-icon{ text-align: center; }
+	.service-link{ width: 100% !important; }
+	.service{ width: 100%; }
+	
+	
+	.project-slider{ margin-bottom: 22px; }
+	.filters li{ margin-right: 11px; }
+	
+	#home-slider .slides li h1{ font-size: 30px; }
+	#home-slider .slides li p{ font-size: 1em; }
+	#home-slider .slides li .btn{ display: none; }
+	#home-slider .slides li{ background-size: cover !important; }
+	
+	.pricing-table{ margin-bottom: 44px; }
+	
+	.contact-content .btn{ margin: 11px 0px; float: none; clear: both; min-width: 150px; }
+	.contact-methods a:last-child .btn{ margin-bottom: 44px; }
+	.contact-methods a:first-child .btn{ margin-top: 22px; }
+	.contact-methods a{ margin-right: 0px; float: none; }
+	
+	.text-link{ text-align: center; }
+	.post-date{ display: none; }
+	.post-text{ width: 100%; }
+	
+	#footer .text-right{ text-align: left !important; margin-top: 11px; }
+
+}
+
+
+/***** TABLETS PORTRAIT & LANDSCAPE *****/
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+
+.text-divider, .left-divider, .right-divider{ background-attachment: scroll !important; }
+#home-slider .slides li{ background-size: cover !important; }
+.client img{ max-width: 130px;  }
+
+}
+
+
+/***** PORTRAIT TABLETS *****/
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+
+.project{ width: 50%; }
+.service{ width: 100%; }
+#services{ background: none !important; background-color: #f6f6f6 !important; }
+#services:before{ width: 0px !important; height: 0px !important; }
+.service-list{ width: 100%; }
+.service-icon{ text-align: center; }
+.service-link{ width: 100% !important; }
+
+}
