@@ -1,0 +1,21 @@
+.page-wrapper .header {
+  font-family: $heading-font;
+  padding: 35px 15px;
+  &.fixed-nav {
+    padding: 20px 15px;
+  }
+  .navbar-brand {
+    max-width: 322px;
+  }
+  .navbar-nav {
+
+    @media(min-width: 992px) {
+      .menu-arrow{
+        top: -42px
+      }
+      width: 75%;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}

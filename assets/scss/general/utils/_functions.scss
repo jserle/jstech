@@ -1,0 +1,7 @@
+@function get-theme-color($obj, $key) {
+    @return map-get($map: $obj, $key: $key);
+}
+
+@function px-rem-converter($size){
+    @return $size/$default-font-size + rem;
+}

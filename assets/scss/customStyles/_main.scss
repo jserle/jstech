@@ -1,0 +1,39 @@
+.js-blue {
+  background: $js-blue;
+}
+.jsTech {
+
+  .stepsIcon {
+    max-height: 90px;
+  }
+  .btn {
+    font-size: 22px;
+    font-family: $gothem-bold;
+  }
+  .section-padding {
+    padding-top: 115px;
+  }
+  .section-spacer {
+    padding: 92px 0;
+  }
+
+  @import "components/about";
+  @import "components/header";
+  @import "components/homeBanner";
+  @import "components/ourSteps";
+  @import "components/projects";
+  @import "components/testimonials";
+  @import "components/ourService";
+  @import "components/sponsors";
+  @import "components/footer";
+
+
+  .section-header {
+    @include sectionHeader;
+  }
+}
+
+
+
+
+

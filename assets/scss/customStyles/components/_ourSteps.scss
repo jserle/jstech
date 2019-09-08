@@ -1,0 +1,35 @@
+.ourSteps {
+  .title {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-family: $lato-bold;
+    font-size: 22px;
+  }
+  .stepIcon {
+    font-size: 85px;
+    background: -webkit-linear-gradient(0deg, #3b47a2 0%, #3584A7 51%, #30D2BE 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+.technology {
+  .content {
+    position: relative;
+    z-index: 3;
+    .title {
+      font-family: $lato-bold;
+      font-size: 37px;
+    }
+    .desc {
+      font-size: 22px;
+      margin: 32px 0 20px;
+    }
+  }
+  @media (max-width: 576px) {
+    .content {
+      .title {
+        font-size: 30px;
+      }
+    }
+  }
+}

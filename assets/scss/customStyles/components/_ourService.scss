@@ -1,0 +1,41 @@
+.services-section {
+  .service-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 2rem 20px;
+    border-color: transparent;
+    position: relative;
+    margin-bottom: 15px;
+    &:after {
+      content: '';
+      display: block;
+      position: absolute;
+      bottom: -5px;
+      left: 0;
+      height: 5px;
+      width: 100%;
+      background: linear-gradient(-225deg, #30D2BE 0%,#3584A7 50%, #3b47a2 100%);;
+    }
+    .icon-img {
+      span {
+        font-size: 85px;
+        background: -webkit-linear-gradient(0deg, #3b47a2 0%, #3584A7 51%, #30D2BE 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+    }
+  }
+  .service-title {
+    font-family: $lato-bold;
+    font-size: 20px;
+    &:after {
+      display: none;
+    }
+  }
+  .service-description {
+    font-family: $body-font;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+}

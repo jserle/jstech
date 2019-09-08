@@ -1,0 +1,46 @@
+#home {
+  h1 {
+    font-family: $lato-bold;
+    font-size: 66px;
+    span.typewrapper {
+      padding-top: 35px;
+      font-family: $body-font;
+      font-size: 27px;
+      max-width: 70%;
+      text-transform: none;
+    }
+
+  }
+  .btn {
+    font-size: 20px;
+    padding: 15px 65px;
+    &.btn-white {
+      color: $black;
+      &:hover {
+        color: $white;
+      }
+    }
+   }
+  @media(max-width: 992px) {
+    h1 {
+      font-size: 44px;
+      span.typewrapper {
+        font-size: 20px;
+      }
+    }
+    .btn {
+      font-size: 16px;
+    }
+  }
+  @media(max-width: 576px) {
+    h1 {
+      font-size: 35px;
+      span.typewrapper {
+        font-size: 16px;
+      }
+    }
+    .btn {
+      margin-right: 0!important;
+    }
+  }
+}

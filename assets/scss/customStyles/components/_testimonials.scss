@@ -1,0 +1,23 @@
+.slider-for {
+  h6 {
+    font-family: $lato-bold;
+    font-size: 20px;
+    small{
+      font-family: $body-font;
+      font-size: 16px;
+    }
+  }
+  &:after, &:before {
+    color: $js-blue;
+  }
+  .item {
+    a {
+      margin-top: 20px;
+      font-size: 16px;
+      color: #3c43a7
+    }
+  }
+}
+
+
+

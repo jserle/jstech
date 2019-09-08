@@ -1,0 +1,153 @@
+/**
+ * ----------------------------------------------
+ * Font face
+ * 
+ */
+/**
+ * ----------------------------------------------
+ * Font Sizes
+ * ----------------------------------------------
+ *
+*/
+/**
+ * ----------------------------------------------
+ * COLOR CODES
+ * ----------------------------------------------
+ *
+*/
+/**
+* ----------------------------------------------
+* Shadows CODES
+* ----------------------------------------------
+*
+*/
+/**
+ * ----------------------------------------------
+ * Loop classes
+ * ----------------------------------------------
+ *
+*/
+/**
+* ----------------------------------------------
+* Grediant CODES
+* ----------------------------------------------
+*
+*/
+a:hover {
+  color: #3264f5; }
+
+.grediant-overlay, .bg-gred {
+  background-image: linear-gradient(to right, #7202bb 2%, #3264f5 82%); }
+
+.grediant-overlay-reverse, .bg-reverse-gred {
+  background-image: linear-gradient(to right, #3264f5 2%, #7202bb 82%); }
+
+.gred-bg.fixed-nav {
+  background-image: linear-gradient(to right, #7202bb 2%, #3264f5 82%); }
+
+.text-grediant {
+  background-image: linear-gradient(to right, #7202bb 2%, #3264f5 82%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text; }
+
+.scroll-top:hover .scroll-top-icon {
+  background-color: #3264f5; }
+
+.icon-img {
+  color: #3264f5; }
+
+.text-primary {
+  color: #3264f5 !important; }
+
+.text-secondary {
+  color: #888888 !important; }
+
+.bg-primary {
+  background: #3264f5 !important; }
+
+.close:hover {
+  color: #3264f5; }
+
+.more-link:after {
+  background: #3264f5; }
+
+.more-link:hover {
+  color: #3264f5; }
+
+.btn-primary {
+  background-image: linear-gradient(to right, #7202bb 0%, #3264f5 51%, #7202bb 100%);
+  color: #ffffff; }
+  .btn-primary:hover {
+    color: #ffffff; }
+
+.btn-outline-primary {
+  background-image: linear-gradient(white, white), radial-gradient(circle at top left, #7202bb, #3264f5);
+  background-clip: padding-box, border-box;
+  background-origin: border-box;
+  padding: 0.5rem 1.25rem; }
+  .btn-outline-primary:hover, .btn-outline-primary:focus, .btn-outline-primary:active {
+    background: #3264f5;
+    background-image: linear-gradient(to right, #7202bb 2%, #3264f5 82%);
+    background-clip: border-box, padding-box;
+    background-origin: border-box; }
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active {
+  background-image: linear-gradient(to right, #7202bb 0%, #3264f5 51%, #7202bb 100%);
+  color: #ffffff; }
+
+.btn-outline-white:hover {
+  color: #3264f5;
+  background: #ffffff; }
+
+.btn-white {
+  color: #3264f5; }
+
+.btn-navigate {
+  border-color: #222;
+  color: #222; }
+  .btn-navigate:after {
+    color: #3264f5; }
+  .btn-navigate:hover {
+    color: #3264f5;
+    border-color: #3264f5; }
+
+.owl-carousel .owl-dots .owl-dot:hover:after, .owl-carousel .owl-dots .active:after {
+  background: #3264f5; }
+
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev {
+  color: #3264f5; }
+
+.preloader .bar-loader span {
+  background: #3264f5; }
+
+.blog-box-3 .blog-title:hover h6 {
+  color: #3264f5; }
+
+.header.link-nav.fixed-nav .navbar-nav .nav-link.active, .header.link-nav.fixed-nav .navbar-nav .nav-link:hover {
+  color: #3264f5; }
+
+.work-list {
+  padding-right: 15px; }
+  @media (max-width: 767px) {
+    .work-list {
+      padding-right: 0; } }
+  .work-list .work-nav {
+    justify-content: center; }
+    @media (min-width: 768px) {
+      .work-list .work-nav {
+        margin-left: 1rem;
+        justify-content: flex-start; } }
+  .work-list .control:after {
+    background-color: #3264f5; }
+  .work-list .control.filtr-active, .work-list .control:hover {
+    color: #3264f5; }
+
+.swiper-pagination.pagination-white .swiper-pagination-bullet {
+  background: #ffffff;
+  opacity: 1; }
+
+.swiper-pagination.pagination-white .swiper-pagination-bullet-active {
+  background: #3264f5; }
+
+/*# sourceMappingURL=../maps/theme-3.css.map */

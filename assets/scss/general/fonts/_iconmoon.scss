@@ -1,0 +1,50 @@
+@font-face {
+  font-family: 'icomoon';
+  src:
+          url('../fonts/icomoon-v1.0/icomoon.ttf?7gckfm') format('truetype'),
+          url('../fonts/icomoon-v1.0/icomoon.woff?7gckfm') format('woff'),
+          url('../fonts/icomoon-v1.0/icomoon.svg?7gckfm#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="kk-icon-"], [class*=" kk-icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.kk-icon-Consultation:before {
+  content: "\e900";
+}
+.kk-icon-Architecture:before {
+  content: "\e901";
+}
+.kk-icon-Support:before {
+  content: "\e902";
+}
+.kk-icon-NeedsAssessment:before {
+  content: "\e903";
+}
+.kk-icon-Integrations:before {
+  content: "\e904";
+}
+.kk-icon-Full-StackDevelopment:before {
+  content: "\e905";
+}
+.kk-icon-Execution:before {
+  content: "\e906";
+}
+.kk-icon-BusinessWorkflow:before {
+  content: "\e907";
+}

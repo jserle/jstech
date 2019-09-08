@@ -1,0 +1,47 @@
+.js-long-block {
+  //height: ;
+  height: 25rem;
+}
+.js-short-block {
+  height: 20rem;
+
+}
+
+.bd-js-blue {
+  background: #0032a0;
+}
+.bd-js-white {
+  background: $white;
+}
+.bd-js-green {
+  background: #49bd79;
+}
+.bd-js-black {
+  background: #1c1c1c;
+}
+.work-nav {
+  li {
+    a{
+      font-size: 22px;
+    }
+  }
+}
+.work-grid-box-1 {
+  box-shadow: 0 0 10px 5px #f7f7f7;
+  border-radius: 5px;
+  .grid-image {
+
+    a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+
+      img {
+        max-width: 80%;
+      }
+    }
+
+  }
+}
+

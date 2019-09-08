@@ -1,0 +1,31 @@
+.footer.theme-1  {
+  .footer-menu {
+    display: flex;
+    justify-content: space-between;
+  }
+  .scroll-item {
+    padding: 0 10px;
+  }
+  .logo {
+    margin-bottom: 0;
+  }
+
+  @media(max-width: 992px) {
+    .logo {
+      margin-bottom: 15px;
+    }
+    .scroll-item {
+      padding-right: 15px;
+      padding-left: 0;
+
+      &:not(:first-of-type) {
+        padding-left: 15px;
+      }
+    }
+    .footer-menu {
+      margin-bottom: 15px;
+      justify-content: flex-start;
+    }
+
+  }
+}

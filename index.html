@@ -1,578 +1,760 @@
-<!doctype html>
-<html class="no-js" lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="JS Technology Solutions is a skilled team of technical consultants and software architects. We strive to deliver reliable and performant web and mobile applications that increase productivity and customer satisfaction." />
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--=== meta ===-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="JS Technology Solutions is a skilled team of technical consultants and software architects. We strive to deliver reliable and performant web and mobile applications that increase productivity and customer satisfaction.">
+    <meta name="keywords" content="all type of portfolio, works, software development, web development, business solution">
+    <meta name="author" content="JS Technology Solutions">
     <title>JS Technology Solutions, Inc.</title>
-    <link rel="stylesheet" href="css/foundation.css" />
-    <link rel="stylesheet" href="css/flexslider.css" />
-    <link rel="stylesheet" href="css/icons.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/responsive.css" />
-    <script src="js/vendor/modernizr.js"></script>
-    <link href='//fonts.googleapis.com/css?family=Lato:300,400,700%7CRoboto+Slab:400,700,300' rel='stylesheet' type='text/css'>
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCZ0__JFYC7PQi5zNNIgtVQmR5lqO4Frzo&amp;sensor=false"></script>
-    <link rel="icon" type="image/x-icon" href="favicon.ico" />
-  </head>
-  <body>
-  
-	<div id="loader">
-		<div id="progress-bar"></div>
-	</div>
-	
-	<div id="main-container">
-	
-		<div id="navigation">
-			<div class="row">
-				<div class="medium-5 columns">
-                    <p class="text-white" style="font-size: 1.3em; margin: 26px">
-                        <span style="padding: 1px; color: #0158b7; background-color: white">JS</span>
-                        Technology Solutions
-                    </p>
-					<!--<img class="logo" alt="logo" src="img/logo2.png" />-->
-				</div>
+
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon" />
+    <!--=== Icon Fonts ===-->
+    <link rel="stylesheet" href="assets/vendors/fontAwesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/vendors/simple-line-icons/css/simple-line-icons.css">
+
+
+    <!--=== plugins ===-->
+    <link rel="stylesheet" href="assets/dist/css/plugins.css"> <!-- css bundle -->
 				
-				<div class="medium-7 columns text-right">
-					<ul id="menu">
-						<li><a class="smooth-scroll" href="#home-scroll">Home</a></li>
-						<li><a class="smooth-scroll" href="#about-scroll">About</a></li>
-						<li><a class="smooth-scroll" href="#services-scroll">Services</a></li>
-                        <li><a class="smooth-scroll" href="#work-scroll">Work</a></li>
-                        <li><a class="smooth-scroll" href="#contact-scroll">Contact</a></li>
-					</ul>
-				</div>
-				
-				<div class="mobile-toggle text-white"><i class="icon icon_menu-square_alt2"></i></div>
-			</div>
-		</div>
-		
-		<a id="home-scroll"></a>
-		<section id="home">
-		
-			<div id="home-slider">
-				
-				<ul class="slides">
-				
-					<li class="has-parallax cover-bg">
-						<div class="row slide-content">
-							<div class="medium-12 columns">
-                                <h1 class="text-white">ef·fi·cien·cy</h1>
-                                <p class="lead text-white" style="font-style: italic">noun</p>
-                                <p class="lead text-white">
-                                    Providing your staff with tools that are as easy to use <br />and as <strong>powerful</strong> as those which you provide to your customer.
+    <!--=== default css ===-->
+    <link rel="stylesheet" href="assets/dist/css/style.css">
+    <link rel="stylesheet" href="assets/dist/css/theme-1.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+           <script src="assets/vendors/html5shiv/js/html5shiv.min.js"></script>
+           <script src="assets/vendors/respondjs/js/respond.min.js"></script>
+    <![endif] -->
+
+
+</head>
+
+<body class="jsTech">
+    <!-- **************************************-->
+    <!-- **************Preloader**************-->
+    <!-- **************************************-->
+    <div class="preloader">
+        <div class="bar-loader">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+
+    <!-- **************************************-->
+    <!-- **************Scroll Top Button**************-->
+    <!-- **************************************-->
+    <div class="scroll-top-btn" data-scroll-goto="0">
+        <a href="#" class="scroll-top">
+            <span class="scroll-top-icon"></span>
+        </a>
+    </div>
+
+    <div class="page-wrapper">
+
+        <!-- **************************************-->
+        <!-- **************Header**************-->
+        <!-- **************************************-->
+        <header class="header arrow-header gred-bg">
+            <!-- **************************************-->
+            <!-- **************Nav Bar*****************-->
+            <!-- **************************************-->
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="#">
+                            <img src="assets/images/LogoJS.png" alt="Letstart">
+                        </a>
+                        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav"
+                            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <div class="navbar-nav ml-auto align-items-center">
+                            <a class="scroll-item nav-link" data-scroll-nav="1" href="#about-us">About</a>
+                            <a class="scroll-item nav-link" data-scroll-nav="2" href="#works">Projects</a>
+                            <a class="scroll-item nav-link" data-scroll-nav="3" href="#pricing">Testimonials</a>
+                            <a class="scroll-item nav-link" data-scroll-nav="6" href="#contact-us">Contact</a>
+<!--                            <span class="menu-arrow"></span>-->
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        
+        <!-- **************************************-->
+        <!-- **************Home banner***********-->
+        <!-- **************************************-->
+        <div class="particle-container fullscreen bg3" data-scroll-index="0">
+            <div id="particles" class="particles"></div>
+            <div class="grediant-overlay opacity-85"></div>
+            <div class="center-col text-center white-text" id="home">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-10 col-lg-10 mx-auto" data-aos="fade-up" data-aos-duration="600" data-aos-delay="500">
+                            <div class="home-content">
+                                <h1 class="extra-large-heading text-uppercase">
+                                    Move your company forward. <br/>
+                                    <span class="d-block ml-auto mr-auto typewrapper">
+                                        <span id="typewriter"></span>
+                                    </span>
+                                </h1>
+                                <div class="clearfix mt-50 buttons-block">
+                                    <a href="javascript:void(0)" class="btn  mr-4 btn-white" data-toggle="modal" data-target="#getstarted">
+                                        Get started
+                                    </a>
+                                    <a href="#about-us" class="btn btn-outline-white" data-scroll-nav="1" >
+                                    Learn More
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-down">
+                <a href="#about-us" data-scroll-goto="1">
+                    <span></span>
+                </a>
+            </div>
+        </div>
+
+        <!-- **************************************-->
+        <!-- **************About US**************-->
+        <!-- **************************************-->
+        <section class="about-us section-padding pb-80 pb-0"  data-scroll-index="1">
+            <div class="container">
+                <div class="row flex-row-reverse">
+                   <div class="col-md-6 col-lg-7 mb-30">
+                        <div class="section-header ">
+                            <h2><small >What We Are</small> About us</h2>
+                        </div>
+                        <div class="about-us-content">
+                            <p>We've saved our clients thousands of dollars by working to maximize their already-invested funds,
+                              improving their existing software so that it functions more efficiently and with fewer bugs.
+                              We make outsourcing more accessible to our clients by leveraging our significant experience
+                              in finding and maintaining skilled developers.  We are able to apply our deep experience in the areas of:
+                              <br> 1) identifying the best  developers;
+                              <br> 2) robust interviewing process;
+                              <br> 3) engagement in client work with high effectiveness productivity;
+                              <br> 4) building of long-term relationships with our clients as we work together on highly visible, sensitive or valuable projects;
+                              <br> 5) proactively identifying issues that come up along the way, and stepping in to resolve them so that time/money is not lost.
+                            </p>
+
+                        </div>
+                   </div>
+                   <div class="col-md-6 col-lg-5">
+                       <img src="assets/images/aboutSectionImg-min.jpg" alt="about us"/>
+                       <div class="excellance-tag js-blue">
+                            <div class="excellance-text">
+                                <div class="icon">
+                                    <img src="assets/images/jsTech/icons/excellence.png" alt="" width="30">
+                                </div>
+                                <h3>7</h3>
+                                <p><small>Years of Excellence</small></p>
+                            </div>
+                       </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- **************************************-->
+        <!-- **************Our Steps**************-->
+        <!-- **************************************-->
+        <section class="pt-100 pb-50 bg-light our-steps mt--40 ourSteps" data-scroll-index="1">
+            <div class="container">
+                <div class="section-header">
+                    <h2><small>Our</small> Steps</h2>
+                </div>
+                <div class="row">
+<!--                    <div class="col-12">-->
+<!--                        <div class="jsOurSteps">-->
+                            <div class="col-md-3 text-center pb-4">
+                                <span class="stepIcon kk-icon-BusinessWorkflow"></span>
+<!--                                <img src="assets/images/jsTech/icons/BusinessWorkflow.svg" alt="" class="stepsIcon">-->
+                                <h6 class="title">Business Workflow</h6>
+                                <p class="desc">
+                                    We learn how your company operates and how technology is used to drive successful customer interactions.                                </p>
+                            </div>
+
+                            <div class="col-md-3 text-center pb-4">
+                                <span class="stepIcon kk-icon-NeedsAssessment"></span>
+<!--                                <img src="assets/images/jsTech/icons/NeedsAssessment.svg" alt="" class="stepsIcon">-->
+
+                                <h6 class="title">Needs Assessment</h6>
+                                <p class="desc">
+                                    We help you define the solution that streamlines your
+                                    operations and simplifies your team's workflow.
                                 </p>
-							</div>
-						</div>
-						<div class="slide-overlay"></div>
-						<img alt="Slider Background" class="slider-bg" src="img/board_room_tech.jpg" />
-					</li>
-				
-					<li class="has-parallax">
-						<div class="row slide-content">
-							<div class="medium-12 columns">
-								<h1 class="text-white">In order to <strong>excel</strong>,<br /> you need the <strong>right tools.</strong></h1>
-								<p class="lead text-white">For over 10 years, we've delivered software that increases productivity and profits. </p>
-                                <a class="text-white smooth-scroll" href="#about-scroll"><div class="btn">How?</div></a>
-							</div>
-						</div>
-						<div class="slide-overlay"></div>
-						<img alt="Slider Background" class="slider-bg" src="img/office_desk_app.jpg" />
-					</li>
+                            </div>
+                            <div class="col-md-3 text-center pb-4">
+                                <span class="stepIcon kk-icon-Architecture"></span>
+<!--                                <img src="assets/images/jsTech/icons/Architecture.svg" alt="" class="stepsIcon">-->
+                                <h6 class="title">Architecture</h6>
+                                <p class="desc">
+                                    Once we thoroughly
+                                    comprehend your existing stack, we work to design and build a solution that integrates
+                                    seamlessly into your
+                                    environment.                                </p>
+                            </div>
+                            <div class="col-md-3 text-center pb-4">
+                                <span class="stepIcon kk-icon-Execution"></span>
+<!--                                <img src="assets/images/jsTech/icons/Execution.svg" alt="" class="stepsIcon">-->
+                                <h6 class="title">Execution</h6>
+                                <p class="desc">
+                                    Your project is built, developed, tested, and deployed, in an
+                                    iterative process that keeps you in the driver's seat.                                </p>
+                            </div>
+<!--                        </div>-->
+<!--                    </div>-->
+                </div>
 
-                    <li class="has-parallax">
-						<div class="row slide-content">
-							<div class="medium-12 columns">
-								<h1 class="text-white">Move your company<br /> <strong>forward.</strong></h1>
-								<p class="lead text-white">We can help you build the software foundation you need to grow your business and <br />
-                                    prepare for the future. </p>
-                                <a class="text-white smooth-scroll" href="#about-scroll"><div class="btn">How?</div></a>
-							</div>
-						</div>
-						<div class="slide-overlay"></div>
-						<img alt="Slider Background" class="slider-bg" src="img/bridge_technology_chicago.jpg" />
-					</li>
+            </div>
+        </section>
 
-				</ul>
-				
-			</div><!--end of home-slider-->
-		
-		</section><!--end of home section-->
-		
-		<a id="about-scroll"></a>
-		<section id="about-intro" class="pad-large">
-		
-			<div class="row">
-				<div class="medium-12 columns text-center">
-					<h2>We work with <strong>you</strong> to understand your company mission and how technology can drive <strong>success</strong>.</h2>
-				</div>
-			</div>
-			
-			<div class="row">
+        <!-- **************************************-->
+        <!-- ************Counter Section***********-->
+        <!-- **************************************-->
+        <div class="bg2 pt-100 pb-80 technology position-relative" data-scroll-index="1">
+            <div class="grediant-overlay-reverse opacity-85 z-1"></div>
+            <div class="content white-text">
+                <div class="container">
+                    <div class="row">
+                       <div class="col-12">
+                           <p class="title text-center ">Technology is about people.</p>
+                           <p class="desc text-center">
+                               We build solutions that empower your team, not hinder them.
+                           </p>
+                           <div class="text-center">
+                               <a href="#contact-us" data-scroll-nav="6"  class="btn  mr-4 btn-white" >
+                                   Get started
+                               </a>
+                           </div>
+                       </div>
+                   </div>
+                </div>
+            </div>
+        </div>
 
-                <div class="medium-3 columns text-center">
-                    <div class="large-feature">
-                        <i class="icon icon_flowchart"></i>
-                        <h4>Business Workflow</h4>
+         <!-- **************************************-->
+        <!-- **************Our Works single portfolio**************-->
+        <!-- **************************************-->
+        <section class="single-portfolio" id="single-portfolio">
+            <div class="container">
+                <div class="portfolio-image">
+                </div>
+                <div class="section-header py-5 mb-0">
+                </div>
+                <div class="row">
+                    <div class="col-md-7 col-lg-7">
+                        <div class="single-portfolio-content">
+                        </div>
+                    </div>
+                    <div class="col-md-5 offset-lg-1 col-lg-4">
+                        <div class="tags">
+                        </div>
+                        <div class="social-link justify-content-between pt-15">
+                            <p><strong>Share</strong></p>
+                            <div class="d-flex">
+                                <a href="#" class="fb"><i class="fa fa-facebook"></i></a>
+                                <a href="#" class="tw"><i class="fa fa-twitter"></i></a>
+                                <a href="#" class="ln"><i class="fa fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <hr/>
+                </div>
+                <div class="close-btn">
+                    <a href="javascript:void(0)"><i class="icon-close fa-2x"></i></a>
+                </div>
+            </div>
+            <div class="work-navigation-section section-spacer bg-light">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="work-nav prev-work">
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="work-nav next-work">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- **************************************-->
+        <!-- **************Our Works**************-->
+        <!-- **************************************-->
+        <section class="section-spacer" data-scroll-index="2" data-aos="fade" data-aos-duration="400">
+            <div class="container">
+                <div class="section-header">
+                    <h2><small>Featured</small>Projects</h2>
+                </div>
+                <div class="work-list">
+                    <ul class="work-nav list-unstyled">
+                        <li><a href="javascript:void(0)" class="control filtr-active" data-filter="all">All</a></li>
+                        <li><a href="javascript:void(0)" class="control" data-filter="education">Education</a></li>
+                        <li><a href="javascript:void(0)" class="control" data-filter="software-dev">Software Development</a></li>
+                        <li><a href="javascript:void(0)" class="control" data-filter="business-sol">Business solutions</a></li>
+                    </ul>
+                    <div class="filtr-container row">
+                        <div class="filtr-item " data-groups='["software-dev", "education"]' data-index="1">
+                            <div class="work-grid-box-1">
+                                <div class="grediant-overlay opacity-85"></div>
+                                <div class="grid-image">
+                                    <a href="javascript:void(0)" class="bd-js-blue js-long-block">
+                                        <img src="assets/images/jsTech/portfolio/cps.png" alt="Project name">
+                                    </a>
+                                </div>
+                                <div class="grid-icon">
+                                    <a href="javascript:void(0)">
+                                        <i class="icon-link"></i>
+                                    </a>
+                                </div>
+                                <div class="grid-body">
+                                    <h6 class="grid-title">Chicago Public Schools</h6>
+                                    <p class="grid-description">Software Development</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="filtr-item " data-groups='["software-dev", "business-sol"]' data-index="2">
+                            <div class="work-grid-box-1">
+                                <div class="grediant-overlay opacity-85"></div>
+                                <div class="grid-image">
+                                    <a href="javascript:void(0)" class="bd-js-white js-short-block">
+                                        <img src="assets/images/jsTech/portfolio/new-logo-sq2.png" alt="Project name">
+                                    </a>
+                                </div>
+                                <div class="grid-icon">
+                                    <a href="javascript:void(0)">
+                                        <i class="icon-link"></i>
+                                    </a>
+                                </div>
+                                <div class="grid-body">
+                                    <h6 class="grid-title">Prospect Resources</h6>
+                                    <p class="grid-description">Business solutions</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="filtr-item " data-groups='["software-dev", "education"]' data-index="3">
+                            <div class="work-grid-box-1">
+                                <div class="grediant-overlay opacity-85"></div>
+                                <div class="grid-image">
+                                    <a href="javascript:void(0)" class="bd-js-green js-long-block">
+                                        <img src="assets/images/jsTech/portfolio/MCC-Logo-2018-white-letters.png" alt="Project name">
+                                    </a>
+                                </div>
+                                <div class="grid-icon">
+                                    <a href="javascript:void(0)"> <i class="icon-link"></i> </a>
+                                </div>
+                                <div class="grid-body">
+                                    <h6 class="grid-title">Midwestern Career College</h6>
+                                    <p class="grid-description">Software Development</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="filtr-item "  data-groups='["software-dev", "education"]' data-index="6">
+                            <div class="work-grid-box-1">
+                                <div class="grediant-overlay opacity-85"></div>
+                                <div class="grid-image">
+                                    <a href="javascript:void(0)" class="bd-js-black js-long-block">
+                                        <img src="assets/images/jsTech/portfolio/VectorSmartObject13.png" alt="Project name">
+                                    </a>
+                                </div>
+                                <div class="grid-icon">
+                                    <a href="javascript:void(0)"> <i class="icon-link"></i> </a>
+                                </div>
+                                <div class="grid-body">
+                                    <h6 class="grid-title">DRCO</h6>
+                                    <p class="grid-description">Software Development</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="filtr-item" data-groups='["software-dev", "business-sol"]' data-index="4">
+                            <div class="work-grid-box-1">
+                                <div class="grediant-overlay opacity-85"></div>
+                                <div class="grid-image">
+                                    <a href="javascript:void(0)" class=" bd-js-white js-short-block">
+                                        <img src="assets/images/jsTech/portfolio/opinionwizardlogo.png" alt="Project name">
+                                    </a>
+                                </div>
+                                <div class="grid-icon">
+                                    <a href="javascript:void(0)"> <i class="icon-link"></i> </a>
+                                </div>
+                                <div class="grid-body">
+                                    <h6 class="grid-title">OpinionWizard</h6>
+                                    <p class="grid-description">Business Solutions</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="filtr-item " data-groups='["software-dev", "business-sol"]' data-index="5">
+                            <div class="work-grid-box-1">
+                                <div class="grediant-overlay opacity-85"></div>
+                                <div class="grid-image">
+                                    <a href="javascript:void(0)" class="bd-js-white js-short-block">
+                                        <img src="assets/images/jsTech/portfolio/AR_Proactive.png" alt="Project name">
+                                    </a>
+                                </div>
+                                <div class="grid-icon ">
+                                    <a href="javascript:void(0)"> <i class="icon-link"></i> </a>
+                                </div>
+                                <div class="grid-body">
+                                    <h6 class="grid-title">AR PROACTIVE</h6>
+                                    <p class="grid-description">Software Development</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- **************************************-->
+        <!-- **************Testimonials**************-->
+        <!-- **************************************-->
+        <section class="testimonials-section section-spacer bg-light"  data-scroll-index="3">
+            <div class="container">
+                <div class="section-header">
+                    <h2><small>Happy Clients</small> Testimonials</h2>
+                </div>
+                <div class="slider-for">
+                    <div class="item">
                         <p>
-                            We learn how your company operates and how technology is used to drive successful customer interactions.
+                            Working together with JS Technology Solutions, InsureSign was able to meet their goals
+                            and timelines with their refactoring project, and was later acquired by industry leader
+                            FormStack, who was most impressed by the advanced technology embedded into the product.
+                        </p>
+                    </div>
+                    <div class="item">
+                        <p>
+                            I have worked with JS Techonology Solutions for the last 4 years.  They have been
+                            responsible for the entire development and maintenance of our software platform.
+                            Under the extremely capable leadership of Jonathan Serle, I am writing to recommend their services.
+                            <a href="assets/data/testimonialsPdf/Letterofrecommendation(1).pdf" class="d-block">
+                                <img src="assets/images/jsTech/icons/pdficon.svg" width="33" class="d-inline-block" alt=""> JS Tech Recommendation Letter.pdf
+                            </a>
+                        </p>
+                    </div>
+                    <div class="item">
+                        <p>
+                            I have worked with JS Technologies and Jonathan Serle for 4 years now.  Prior to working
+                            with Jonathan, I had engaged three different developers over the years starting in 2001 to
+                            build and support a web-based database system that allows for public registration, updating,
+                            and communication as well as a backend that pretty much runs our call center.
+                            <a href="assets/data/testimonialsPdf/JSTechRecommendationLetter.pdf" class="d-block">
+                                <img src="assets/images/jsTech/icons/pdficon.svg" width="33" class="d-inline-block" alt=""> JS Tech Recommendation Letter.pdf
+                            </a>
                         </p>
                     </div>
                 </div>
-
-				<div class="medium-3 columns text-center">
-					<div class="large-feature">
-						<i class="icon icon_paperclip"></i>
-						<h4>Needs Assessment</h4>
-						<p>
-                            We help you define the solution that streamlines your operations and simplifies your team's workflow.
-						</p>
-					</div>
-				</div>
-
-				<div class="medium-3 columns text-center">
-					<div class="large-feature">
-						<i class="icon icon_flowchart"></i>
-						<h4>Architecture</h4>
-						<p>
-                            Once we thoroughly comprehend your existing stack, we work to design and build a
-                            solution that integrates seamlessly into your environment.
-						</p>
-					</div>
-				</div>
-
-				<div class="medium-3 columns text-center">
-					<div class="large-feature">
-						<i class="icon icon_tools"></i>
-						<h4>Execution</h4>
-						<p>
-							Your project is built, developed, tested, and deployed, in an iterative process that keeps you in the driver's seat.
-						</p>
-					</div>
-				</div>
-				
-			</div>
-		
-		</section><!--end of about-intro-->
-		
-		<section class="text-divider left-divider has-pan-left">
-		
-			<div class="row pad-large">
-				<div class="medium-7 columns">
-                    <ul class="inline-list">
-                        <li><img src="img/zf-zce-logo.gif"></li>
-                        <li><img src="img/php5-zce-logo-new.gif"></li>
-                        <li><img src="img/certification-logo-oracle-certified-professional.gif"></li>
-                    </ul>
-                    <ul class="inline-list">
-                        <li>PHP</li>
-                        <li>Zend Framework</li>
-                        <li>Apigility</li>
-                        <li>Symfony</li>
-                        <li>Doctrine ORM</li>
-                        <li>MySQL</li>
-                        <li>SQL Server</li>
-                        <li>MongoDB</li>
-                        <li>RESTful APIs</li>
-                        <li>BackboneJS</li>
-                        <li>jQuery</li>
-                        <li>ORM Designer</li>
-                        <li>Social APIs</li>
-                        <li>E-Commerce</li>
-                    </ul>
-					<h3>We use the latest open-source tools and techniques to build your <strong>state-of-the-art solution</strong>.</h3>
-				</div>
-			</div>
-			
-			<img alt="Divider Background" class="divider-bg" src="img/orm_ide.jpg" />
-		
-		</section>
-		
-		<section class="action-divider highlight-bg">
-			<div class="row">
-				<div class="medium-9 columns">
-                    <h3 class="text-white">Technology is about  <strong>people.</strong></h3>
-                    <p class="lead text-white">We build solutions that empower your team, not hinder them.</p>
-				</div>
-				<div class="medium-3 columns text-center">
-					<a href="#contact-scroll"><div class="btn text-white">Reach out</div></a>
-				</div>
-			</div>
-		</section><!--end of action divider section-->
-		
-		<a id="services-scroll"></a>
-		<section id="services" class="text-divider has-pan-right">
-		
-			<div class="row pad-large-top">
-				<div class="medium-12 columns text-center">
-					<h2 class="page-title">Our Services</h2>
-				</div>	
-			</div>
-			
-			<div class="row">
-				<div class="medium-3 columns"></div>
-				
-				<div class="medium-9 columns offix service-list">
-				
-					<div class="service offix">
-						<div class="service-icon left">
-							<i class="icon icon_lightbulb_alt"></i>
-						</div>
-						
-						<div class="service-text left">
-							<h4>Full-Stack Development</h4>
-                            <p>
-                                We build, deploy, and manage the tools that bring you results, every day.
-                            </p>
-						</div>
-					</div><!--end of individual service-->
-					
-					<div class="service offix">
-						<div class="service-icon left">
-							<i class="icon icon_bag_alt"></i>
-						</div>
-						
-						<div class="service-text left">
-							<h4>Consultation</h4>
-							<p>
-								We work with you to understand the limitations and challenges of
-                                your existing technology, and help you find the cure.
-							</p>
-						</div>
-					</div><!--end of individual service-->
-					
-					<div class="service offix">
-						<div class="service-icon left">
-							<i class="icon icon_globe"></i>
-						</div>
-						
-						<div class="service-text left">
-							<h4>Integrations</h4>
-							<p>
-								We build APIs and services that tie together your existing applications and databases,
-                                as well as third party networks and services, to maximize efficiency and reduce customer service headaches.
-							</p>
-						</div>
-					</div><!--end of individual service-->
-					
-					<div class="service offix">
-						<div class="service-icon left">
-							<i class="icon icon_lifesaver"></i>
-						</div>
-						
-						<div class="service-text left">
-							<h4>Support</h4>
-							<p>
-								We're here when you need us!  We help you manage issues related to scaling, performance,
-                                and compatibility with future versions of your existing software.
-							</p>
-						</div>
-					</div><!--end of individual service-->
-				
-				</div>
-			</div>
-
-
-
-
-            <img alt="Divider Background" class="divider-bg" src="img/multi_device_integration.jpg" />
-
-        </section><!--end of service section-->
-
-        <a id="work-scroll"></a>
-        <section id="work" class="pad-large">
-
-            <div class="row">
-                <div class="medium-12 columns text-center">
-                    <h2 class="page-title" style="margin-bottom:0px">Our Work</h2>
-                    <h4 style="margin-bottom: 22px">Direct references available upon request.</h4>
+                <div class="slider-nav">
+                    <div class="meta-data">
+                        <div class="author-image">
+                            <img src="assets/images/jsTech/testimonials/0.jpg" alt="Author image" />
+                        </div>
+                        <h6>Joe Floyd <small>Founder and CEO</small></h6>
+                    </div>
+                    <div class="meta-data">
+                        <div class="author-image">
+                            <img src="assets/images/jsTech/testimonials/01.jpg" alt="Author image" />
+                        </div>
+                        <h6>Rich Handler <small>CEO at AR Proactive</small></h6>
+                    </div>
+                    <div class="meta-data">
+                        <div class="author-image">
+                            <img src="assets/images/jsTech/testimonials/opinionwizardlogo.png" alt="Author image" />
+                        </div>
+                        <h6>Scott Adleman</h6>
+                    </div>
                 </div>
             </div>
+        </section>
+        <!-- **************************************-->
+        <!-- **************Our Service**************-->
+        <!-- **************************************-->
+        <section class="services-section pt-100 pb-80 " data-scroll-index="2">
+            <div class="container">
+                <div class="section-header">
+                    <h2><small>Our </small> Service</h2>
+                </div>
 
-            <div class="row">
-                <dl class="accordion" data-accordion>
-                    <dd class="accordion-navigation">
-                        <a href="#panel1">Backend Solution for Ticket Broker</a>
-                        <div id="panel1" class="content">
-                            <p>
-                                The managers of a high-volume sports ticket broker were struggling to effectively handle sales operations in a 24/7 industry.
-                            </p>
-                            <p>
-                                After a careful evaluation of the client's needs, we developed a comprehensive
-                                solution to automate many of the steps in sales processing, including confirming available
-                                inventory, invoicing, updating partner sites, and fulfilling orders electronically.
-                            </p>
-                            <p>
-                                Other tools delivered include PDF file management, shipping label printing, reporting features, and email alerts.
-                            </p>
-                            <p>
-                                We collaborated extensively with in-house staff, including numerous on-site visits
-                                to observe the sales and customer service processes in action.
+                <div class="row">
+                    <div class="col-md-6 col-lg-3 pb-4" data-aos="fade-up" data-aos-duration="400">
+                        <div class="service-card border-img">
+                            <div class="icon-img">
+                                <span class="kk-icon-Full-StackDevelopment"></span>
+                            </div>
+                            <div class="service-body">
+                                <h6 class="service-title">Full-Stack Development</h6>
+                                <p class="service-description">
+                                    We build, deploy, and manage the tools that bring you results, every day.
+                                </p>
 
-                                The result was a fully integrated system that works in tandem with the
-                                client's existing Point Of Sale product, augmenting it with the necessary automation
-                                and tooling.
-                            </p>
-                            <p>
-                                As a result, the client was able to downsize its sales staff, resulting in enhanced efficiency and increased profits.
-                            </p>
-                            <ul class="inline-list">
-                                <li>PHP</li>
-                                <li>SQL Server</li>
-                                <li>MongoDB</li>
-                                <li>Twig</li>
-                                <li>Pimple DI</li>
-                                <li>jqGrid</li>
-                                <li>jQuery</li>
-                                <li>ImageMagick</li>
-                                <li>StubHub API</li>
-                                <li>Report Generation</li>
-                                <li>wkhtmltopdf</li>
-                                <li>pdftotext</li>
-                                <li>pdftk</li>
-                                <li>zbarimg</li>
-                            </ul>
+                            </div>
                         </div>
-                    </dd>
-                    <dd class="accordion-navigation">
-                        <a href="#panel2">Phone Conferencing for Health Care Startup</a>
-                        <div id="panel2" class="content">
-                            <p>
-                                We were engaged to assist an ambitious startup with improving
-                                their web app with more advanced communication tools.
-                            </p>
-                            <p>
-                                The project focused on building a real-time phone conferencing application that
-                                would improve the quality of life for hospital patients by providing weekly, scheduled
-                                conference calls together with the patient and all of their supporters, where an
-                                inspiring and uplifting talk by one of the patient's favorite speakers would be played.
-                            </p>
-                            <p>
-                                Major components of the system included:
-                                <ul class="features">
-                                    <li>a web-based view where the client could see a real-time list of all the supporters currently listening to their call</li>
-                                    <li>SMS alerts to ensure supporters were ready for the upcoming call</li>
-                                    <li>Twilio API integration to construct the phone conference with the patient and supporters</li>
-                                    <li>Customized E-mail notifications</li>
-                                    <li>Ability for the patient to "blog by phone"</li>
-                                    <li>An admin panel for hospital managers to insert branding messages into designated slots within each call</li>
-                                </ul>
-                            </p>
-                            <ul class="inline-list">
-                                <li>PHP (Symfony 2)</li>
-                                <li>MySQL</li>
-                                <li>Twig + SCSS + Assetic</li>
-                                <li>KnockoutJS</li>
-                                <li>Bootstrap</li>
-                                <li>Pusher</li>
-                                <li>Twilio API</li>
-                                <li>Mailchimp API</li>
-                                <li>AWS</li>
-                                <li>ACL System</li>
-                            </ul>
-                        </div>
-                    </dd>
-                    <dd class="accordion-navigation">
-                        <a href="#panel3">Product Testing Tool for Fortune 500 Company</a>
-                        <div id="panel3" class="content">
-                            <p>
-                                We worked with an elite team of sub-contractors to deliver a
-                                bespoke solution for managing a highly sophisticated product testing workflow.
-                            </p>
-                            <p>
-                                Designed to replace a multitude of spreadsheets and scheduling tools,
-                                the turn-key solution streamlines a highly complex testing process that covers
-                                thousands of parts and assemblies, providing essential aggregate data
-                                that empowers stakeholders to render decisions related to sourcing and release timelines.
-                            </p>
-                            <p>
-                                We worked with the team to build a series of custom, BackboneJS-powered UI's, along
-                                with corresponding backend services, that provide the application's core compentency:
-                                enabling technicians to record diagnostic observations within specified parameters.
-                            </p>
-                            <ul class="inline-list">
-                                <li>PHP (Zend Framework 2)</li>
-                                <li>MySQL</li>
-                                <li>Doctrine ORM</li>
-                                <li>ORM Designer</li>
-                                <li>BackboneJS</li>
-                                <li>jQuery</li>
-                                <li>Bootstrap</li>
-                                <li>Datatables</li>
-                                <li>ZF EventManager</li>
-                                <li>ACL System</li>
-                                <li>Agile Workflow (Atlassian suite)</li>
-                            </ul>
-                        </div>
-                    </dd>
-                    <dd class="accordion-navigation">
-                        <a href="#panel4">Custom Tools for Large E-Commerce Retailer</a>
-                        <div id="panel4" class="content">
-                            <p>
-                                We brought together backend and frontend proficiencies to build
-                                a series of UI's that streamline key processes for a high-velocity
-                                e-commerce retailer.  Our work highlighted one of our unique talents - thoughtful
-                                crafting of frontend components and backend services to foster a seamless user experiences.
-                            </p>
-                            <p>
-                                Tools delivered include a UI for product specialists to construct a detailed graph
-                                of product specifications and their child options, and then create rules which control
-                                the attachment of the options to the associated inventory products.
+                    </div>
+                    <div class="col-md-6 col-lg-3 pb-4" data-aos="fade-up" data-aos-duration="600">
+                        <div class="service-card border-img">
+                            <div class="icon-img">
+                                <span class="kk-icon-Consultation"></span>
+                            </div>
+                            <div class="service-body">
+                                <h6 class="service-title">Consultation</h6>
+                                <p class="service-description">
+                                    We work with you to understand the limitations and challenges of your existing
+                                    technology, and help you find the cure.
+                                </p>
 
-                                This tool enhanced the client's e-commerce ordering experience by enabling the display
-                                of user-friendly controls for customizing the purchased items based on the available options.
-                            </p>
-                            <p>
-                                Other products delivered include SQL Server based sales and marketing reports, an
-                                admin UI to designate US compliance restrictions on inventory items, and web service
-                                consumers to regularly import sale transaction data via XML-RPC.
-                            </p>
-                            <ul class="inline-list">
-                                <li>PHP (ZF1)</li>
-                                <li>MySQL</li>
-                                <li>SQL Server</li>
-                                <li>Doctrine ORM</li>
-                                <li>jQuery</li>
-                                <li>jqGrid</li>
-                                <li>Dependency Injection</li>
-                                <li>ZF Controller and View Plugins</li>
-                                <li>Custom AJAX Widgets</li>
-                            </ul>
+                            </div>
                         </div>
-                    </dd>
-                    <dd class="accordion-navigation">
-                        <a href="#panel5">Development and Launch for Social Network Startup</a>
-                        <div id="panel5" class="content">
-                            <p>
-                                We built and deployed a niche social networking site with user-to-user messaging as well
-                                as profiles, videos, photos, and live activity feeds. The site features extensive privacy
-                                controls for user-posted content, and a comprehensive backend panel to manage content and
-                                handle removal of any piece of content which violates terms of service or is reported by
-                                the community.
-                            </p>
-                            <p>
-                                Forefront in this project is advanced Facebook integration, which is implemented both
-                                on the server side and client side.  The signup process includes a
-                                "friend finder" which imports the newly-registered user's Facebook friend list and maps
-                                them to users on this site, finally presenting the list as options for sending friend requests.
-                                Photo albums, events, and other user actions are synchronized to Facebook, according to user settings.
-                            </p>
-                            <ul class="inline-list">
-                                <li>PHP</li>
-                                <li>MySQL</li>
-                                <li>Memcached</li>
-                                <li>Smarty</li>
-                                <li>jQuery</li>
-                                <li>jqGrid</li>
-                                <li>Custom AJAX Widgets</li>
-                                <li>Dependency Injection</li>
-                                <li>Facebook API</li>
-                                <li>Email Template System</li>
-                                <li>Custom CMS</li>
-                                <li>Image manipulation (GD)</li>
-                                <li>10-node deployment</li>
-                                <li>Beanstalkd</li>
-                            </ul>
-                        </div>
-                    </dd>
-                    <dd class="accordion-navigation">
-                        <a href="#panel6">Call Center Optimization for Fortune 500 Health Care Company</a>
-                        <div id="panel6" class="content">
-                            <p>
-                                We were contracted to build out new modules for a customized vTiger CRM
-                                implementation which was used for out-bound phone marketing campaigns from the
-                                client's call centers.  Used by the over 1500 call center staff, the application
-                                also provided a vital issue tracking system used by the client's locations throughout
-                                the US, to coordinate problems related to patient medications, billing, and home health appointments.
-                            </p>
-                            <p>
-                                The application features a dynamic call-push system designed to automatically trigger
-                                scheduled, out-bound calls through a browser plugin which sends commands to
-                                Avaya telephony software.
+                    </div>
+                    <div class="col-md-6 col-lg-3 pb-4" data-aos="fade-up" data-aos-duration="800">
+                        <div class="service-card border-img">
+                            <div class="icon-img">
+                                <span class="kk-icon-Integrations"></span>
+                            </div>
+                            <div class="service-body">
+                                <h6 class="service-title">Integrations</h6>
+                                <p class="service-description">
+                                    We build APIs and services that tie together your existing applications and
+                                    databases, as well as third party networks and services, to maximize efficiency
+                                    and reduce customer service headaches.
+                                </p>
 
-                                The call-push mechanism was causing system-wide performance issues due to database
-                                architecture problems and lack of proper implementation of SQL transactions.  By
-                                adjusting the schema, refactoring the queries and transactions, and improving the
-                                AJAX-based call-push feature, we were able to realize significant performance improvements.
-                            </p>
-                            <p>
-                                Also delivered was a dashboard to allow management to guage call center employee
-                                productivity through a series of metrics calculated and displayed in real time.  This
-                                system was used to identify issues and as a result, increase the success of the campaigns
-                                and improve customer satisfaction.
-                            </p>
-                            <ul class="inline-list">
-                                <li>PHP</li>
-                                <li>MySQL</li>
-                                <li>vTiger CRM</li>
-                                <li>jQuery</li>
-                                <li>Custom AJAX Widgets</li>
-                                <li>Dependency Injection</li>
-                                <li>Avaya Telephony Integration</li>
-                                <li>Campaign management</li>
-                            </ul>
+                            </div>
                         </div>
-                    </dd>
-                </dl>
+                    </div>
+                    <div class="col-md-6 col-lg-3 pb-4" data-aos="fade-up" data-aos-duration="400">
+                        <div class="service-card border-img">
+                            <div class="icon-img">
+                                <span class="kk-icon-Support"></span>
+                            </div>
+                            <div class="service-body">
+                                <h6 class="service-title">Support</h6>
+                                <p class="service-description">
+                                    We're here when you need us! We help you manage issues related to scaling,
+                                    performance, and compatibility with future versions of your existing software.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
             </div>
+        </section>
 
-        </section><!--end of work section-->
+        <!-- **************************************-->
+        <!-- **************Sponsor**************-->
+        <!-- **************************************-->
+        <div class="sponsors section-spacer bg-light" data-scroll-index="6">
+            <div class="container">
+                <div class="section-header">
+                    <h2><small>We are</small>Trusted</h2>
+                </div>
+                <div class="owl-carousel">
+                    <div class="item">
+                        <div class="image-box">
+                            <img src="assets/images/jsTech/weAreTrusted/apple.png" alt="Brand name">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="image-box">
+                            <img src="assets/images/jsTech/weAreTrusted/optics.png" alt="Brand name">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="image-box">
+                            <img src="assets/images/jsTech/weAreTrusted/download.png" alt="Brand name">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="image-box">
+                            <img src="assets/images/jsTech/weAreTrusted/cpslogo1.png" alt="Brand name">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- **************************************-->
+        <!-- **************Contact Us Form**************-->
+        <!-- **************************************-->
+        <section class="contact-us-form theme-1 section-spacer" data-scroll-index="6">
+            <div class="container">
+                <div class="section-header">
+                    <h2><small>contact us</small>Get in touch</h2>
+                </div>
+                <form action="https://formspree.io/jdserle@gmail.com" method="POST" id="validation-form" class="h-100" novalidate="novalidate"  data-aos="fade" data-aos-duration="400">
+                    <div id="message" class="alert alert-success d-none"></div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="validation-firstname" placeholder="Firstname">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="validation-lastname" placeholder="Lastname">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="validation-email" placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="validation-phone" placeholder="Phone">
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-group">
+                                <textarea class="form-control message" name="validation-message"
+                                          placeholder="Message (tell us your ideas)"></textarea>
+                            </div>
+                        </div>
+                        <div class="w-100 text-center">
+                            <button type="submit" class="btn btn-primary btn-rounded">Send</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
 
-        <a id="contact-scroll"></a>
-		<section id="contact">
-		
-			<div id="map"></div>
-			
-			<div class="offix contact-content">
-			
-				<div class="row pad-large">
-					<div class="medium-12 columns text-center">
-						<h2 class="page-title">Let's get the conversation started.</h2>
-					</div>
-					
-					<div class="medium-12 columns text-center">
-						<h2><i class="icon icon_mobile"></i>773 865 2424</h2>
-						<div class="contact-methods">
-							<a href="mailto:jserle@jstech-inc.com" class="text-white"><div class="btn highlight-bg highlight-border"><i class="icon icon_mail_alt">&nbsp;</i>Email</div></a>
-							<a href="https://www.linkedin.com/company/js-technology-solutions-inc-" class="text-white"><div class="btn twitter highlight-border"><i class="icon social_linkedin">&nbsp;</i>LinkedIn</div></a>
-						</div>
-						<p>3750 W. Oakton St., Skokie IL, 60076</p>
-					</div>
-				</div>
-				
-			</div>
-		
-		</section><!--end of contact section-->
-		
-		<section id="footer" class="pad-normal">
-			
-			<div class="row">
-				<div class="medium-12 text-center">
-					<span>&copy; Copyright 2019 JS Technology Solutions, Inc</span>
-				</div>
-			</div>
-			
-		</section><!--end of footer section-->
-	
-	</div><!--end of main container-->
-    
-  
-    
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/foundation.min.js"></script>
-    <script src="js/jquery.flexslider-min.js"></script>
-    <script src="js/smooth-scroll.js"></script>
-    <script src="js/TweenMax.min.js"></script>
-	<script src="js/ScrollToPlugin.min.js"></script>
-    <script src="js/scripts.js"></script>
-    <script>
-      $(document).foundation();
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-      ga('create', 'UA-53464721-1', 'auto');
-      ga('send', 'pageview');
-    </script>
-  </body>
+        <!-- **************************************-->
+        <!-- **************Contact Us**************-->
+        <!-- **************************************-->
+        <section class="contact-us bg-light" data-scroll-index="6">
+            <div class="container-fluid">
+                <div class="row align-items-stretch">
+                    <div class="col-md-6 p-0" data-aos="fade" data-aos-duration="400">
+                        <div class="address-container bg4 h-100">
+                            <div class="grediant-overlay-reverse opacity-85"></div>
+                            <div class="address-content">
+                                <div class="address-info">
+                                    <h2>3750 W. Oakton St., Skokie IL, 60076, USA</h2>
+                                </div>
+
+                                <div class="address-info">
+                                    <!--<p><strong>Office telephone</strong> : +0123 456 789 78</p>-->
+                                    <p><strong>Telephone Number</strong> : 773 865 2424</p>
+                                </div>
+                                <div class="address-info">
+                                    <p><strong>Mail</strong> : jserle@jstech-inc.com</p>
+                                    <!--<p><strong>Enquiries</strong> : Example@Gmail.com</p>-->
+                                </div>
+                                <div class="social-link social-white">
+                                    <!--<a href="#" class="fb"><i class="fa fa-facebook"></i></a>-->
+                                    <!--<a href="#" class="tw"><i class="fa fa-twitter"></i></a>-->
+                                    <a href="https://www.linkedin.com/company/js-technology-solutions-inc-/about/" class="ln"><i class="fa fa-linkedin"></i></a>
+                                    <!--<a href="#" class="gplus"><i class="fa fa-google-plus"></i></a>-->
+                                    <!--<a href="#" class="dribble"><i class="fa fa-dribbble"></i></a>-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 p-0">
+                        <div id="map"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- **************************************-->
+    <!-- **************Footer**************-->
+    <!-- **************************************-->
+    <footer class="footer theme-1">
+        <!-- **************************************-->
+        <!-- **************Copy right**************-->
+        <!-- **************************************-->
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-12 col-lg-3">
+                    <div class="logo">
+                        <a href="#">
+                            <img src="assets/images/jsTech/logoGradient.png" alt="letstart"/>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-6">
+                    <ul class="footer-menu " >
+                        <li> <a class="scroll-item text-white" data-scroll-nav="1" href="#about-us">About</a></li>
+                        <li><a class="scroll-item text-white" data-scroll-nav="2" href="#works">Projects</a></li>
+                        <li><a class="scroll-item text-white" data-scroll-nav="3" href="#pricing">Testimonials</a></li>
+                        <li><a class="scroll-item text-white" data-scroll-nav="6" href="#contact-us">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-12 col-lg-3">
+                    <div class="social-link social-white" style="justify-content: center">
+                        <!--<a href="#" class="fb"><i class="fa fa-facebook"></i></a>-->
+                        <!--<a href="#" class="tw"><i class="fa fa-twitter"></i></a>-->
+                        <a href="https://www.linkedin.com/company/js-technology-solutions-inc-/about/" class="ln"><i class="fa fa-linkedin"></i></a>
+                        <!--<a href="#" class="gplus"><i class="fa fa-google-plus"></i></a>-->
+                        <!--<a href="#" class="dribble"><i class="fa fa-dribbble"></i></a>-->
+                    </div>
+                </div>
+                <div class="copyright">
+                    <p>© Copyright 2019. JS Technology Solutions, Inc</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- **************************************-->
+    <!-- **************Modal**************-->
+    <!-- **************************************-->
+    <div class="modal fade" id="getstarted" tabindex="-1" role="dialog" aria-labelledby="getstarted">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header align-items-center">
+                    <h4>Get Your Quote.</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <i aria-hidden="true" class="icon-close"></i></button>
+                </div>
+                <div class="modal-body">
+                    <form action="https://formspree.io/jdserle@gmail.com" method="POST" id="get-started-form" novalidate="novalidate">
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="validation-fullname" placeholder="Full Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="validation-email" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="validation-mobile" placeholder="Mobile">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control message" name="validation-message" placeholder="Message (tell us your ideas)"></textarea>
+                        </div>
+                        <div class="more-btn">
+                            <button type="submit" class="btn btn-primary btn-rounded">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/dist/js/plugins.js"></script><!-- JS bundle  -->
+    <script src="assets/dist/js/particles.js"></script><!-- App file -->
+    <script src="assets/dist/js/general.js"></script><!-- General file -->
+    <script src="assets/dist/js/custom.js"></script><!-- App file -->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCZ0__JFYC7PQi5zNNIgtVQmR5lqO4Frzo&sensor=false"></script>
+    <script src="assets/dist/js/map.js"></script><!-- App file -->
+</body>
+
 </html>

@@ -1,0 +1,134 @@
+/**
+ * ----------------------------------------------
+ * Font face
+ * 
+ */
+/**
+ * ----------------------------------------------
+ * Font Sizes
+ * ----------------------------------------------
+ *
+*/
+/**
+ * ----------------------------------------------
+ * COLOR CODES
+ * ----------------------------------------------
+ *
+*/
+/**
+* ----------------------------------------------
+* Shadows CODES
+* ----------------------------------------------
+*
+*/
+/**
+ * ----------------------------------------------
+ * Loop classes
+ * ----------------------------------------------
+ *
+*/
+/**
+* ----------------------------------------------
+* Grediant CODES
+* ----------------------------------------------
+*
+*/
+a:hover {
+  color: #3584A7; }
+
+.grediant-overlay, .bg-gred {
+  background-image: linear-gradient(-225deg, #3b47a2 0%, #3584A7 51%, #30D2BE 100%); }
+
+.grediant-overlay-reverse, .bg-reverse-gred {
+  background-image: linear-gradient(-225deg, #30D2BE 0%, #3584A7 50%, #3b47a2 100%); }
+
+.gred-bg.fixed-nav {
+  background-image: linear-gradient(-225deg, #3b47a2 0%, #3584A7 51%, #30D2BE 100%); }
+
+.text-grediant {
+  background-image: linear-gradient(to right, #3584A7 0%, #3b47a2 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text; }
+
+.scroll-top:hover .scroll-top-icon {
+  background-color: #3584A7; }
+
+.border-gred {
+  border-image: linear-gradient(to right, #3584A7 0%, #3b47a2 100%);
+  border-image-slice: 1; }
+
+.icon-img {
+  color: #3584A7; }
+
+.text-primary {
+  color: #3584A7 !important; }
+
+.bg-primary {
+  background: #3584A7 !important; }
+
+.close:hover {
+  color: #3584A7; }
+
+.more-link:after {
+  background: #3584A7; }
+
+.more-link:hover {
+  color: #3584A7; }
+
+.btn-primary {
+  background-image: linear-gradient(to right, #3b47a2 0%, #3584A7 51%, #3b47a2 100%);
+  color: #ffffff; }
+  .btn-primary:hover {
+    color: #ffffff; }
+
+.btn-outline-primary {
+  background-image: linear-gradient(to right, #3b47a2 0%, #3584A7 100%);
+  background-clip: padding-box, border-box;
+  background-origin: border-box;
+  padding: 0.5rem 1.25rem; }
+  .btn-outline-primary:hover, .btn-outline-primary:focus, .btn-outline-primary:active {
+    background: #3584A7;
+    background-image: linear-gradient(to right, #3b47a2 0%, #3584A7 51%, #3b47a2 100%);
+    background-clip: border-box, padding-box;
+    background-origin: border-box; }
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active {
+  background-image: linear-gradient(to right, #3b47a2 0%, #3584A7 51%, #3b47a2 100%);
+  color: #ffffff; }
+
+.btn-outline-white:hover {
+  color: #3584A7;
+  background: #ffffff; }
+
+.btn-white {
+  color: #3584A7; }
+
+.owl-carousel .owl-dots .owl-dot:hover:after, .owl-carousel .owl-dots .active:after {
+  background: #3584A7; }
+
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev {
+  color: #3584A7; }
+
+.slider-for:after, .slider-for:before {
+  color: #3584A7; }
+
+.slider-nav:after, .slider-nav:before {
+  color: #3584A7; }
+
+.slider-nav .slick-dots li button:after {
+  background-color: #3584A7; }
+
+.preloader .bar-loader span {
+  background: #3584A7; }
+
+.blog-box-1 .blog-title:hover h6 {
+  color: #3584A7; }
+
+.work-list .control:after {
+  background-color: #3584A7; }
+
+.work-list .control.filtr-active, .work-list .control:hover {
+  color: #3584A7; }
+
+/*# sourceMappingURL=../maps/theme-1.css.map */

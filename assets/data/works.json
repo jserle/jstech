@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "image": "cps.png",
+        "content":"<p>GoCPS allows families to learn, research, explore, and apply to nearly every CPS school and program through one online platform. Whether you are a current CPS family or new to the District, GoCPS is the gateway to finding the right school for you</p><p>JS Technology Solutions provided software development services for a long term, providing digital solutions for GoCPS needs using modern technologies as Angular, Google API, Fusion Tables etc.",
+        "category": ["Software Development", "UX/UI", "Education"],
+        "client": ["Chicago Public Schools"],
+        "timeline":">2 years",
+        "tags": ["Education", "Product", "Angular"],
+        "relatedPost1":{
+          "image": "opinionwizard.png",
+          "id": 6,
+          "projectName": "Opinionwizard"
+        },
+        "relatedPost2":{
+          "image": "prospectResources_.png",
+          "id": 2,
+          "projectName": "Prospect Resources"
+        }
+    },
+    {
+      "id": 2,
+      "image": "prospectResources_.png",
+      "content":"<p>Prospect resources Inc is a energy purchasing firm, that struggled managing a huge amount of incoming data. They needed to make this data more accessible to their employees and customers in a user-friendly fashion. Haven’t heard about j s Technology Solutions expertise in developing data-driven user interfaces, they reached out to us to begin our collaboration. We Begin the engagement by analyzing their needs and developing a deep understanding of their data structure and their existing technical architecture. We then propose and later, delivered an efficient cloud-based solution that sped up there reporting Inc processes buy over 50%. In addition we were also able to help train their internal staff so that they could manage the ongoing development and maintenance of the new platform in house without any external assistance.</p>",
+      "category": ["Software development", "Business solutions"],
+      "client": ["Prospect Resources"],
+      "timeline":"6 Months",
+      "tags": ["Business solutions", "Optimization", "Software development"],
+      "relatedPost1":{
+        "image": "cps.png",
+        "id": 1,
+        "projectName": "GoCPS"
+      },
+
+      "relatedPost2":{
+        "image": "mccollege.png",
+        "id": 3,
+        "projectName": "Midwestern Career College"
+      }
+    },
+    {
+      "id": 3,
+      "image": "mccollege.png",
+      "content":"<p>This is dummy copy. It is not meant to be read. It has been placed here solely to demonstrate the look and feel of finished, typeset text. Only for show. He who searches for meaning here will be sorely disappointed. These words are here to provide the reader with a basic impression of how actual text will appear in its final presentation.</p><p>It’s Greek to you. Unless, of course, you’re Greek, in which case, it really makes no sense. Why, you can’t even read it! It is strictly for mock-ups. You may mock it up as strictly as you wish.</p>",
+      "category": ["Software development", "Education"],
+      "client": ["Midwestern Career College"],
+      "timeline":"6 Months",
+      "tags": ["Wordpress", "UI/UX", "CMS"],
+      "relatedPost1":{
+        "image": "prospectResources_.png",
+        "id": 2,
+        "projectName": "Prospect Resources"
+      },
+
+      "relatedPost2":{
+        "image": "opinionwizard.png",
+        "id": 4,
+        "projectName": "AR PROACTIVE"
+      }
+    },
+    {
+      "id": 4,
+      "image": "opinionwizard.png",
+      "content":"Opinionwizard is a survey service. The system is built using the open source LAMP platform, Linux, Apache, MySQL and PHP,plus a great deal of JavaScript. JS Technology Solutions were  able to change that dynamic and gave the future potential of the existing app. Was implemented JIRA for task tracking, which helped client organize priorities and track their progress.  Within the first year company  able to correct all client's problems and deliver new features. Also later moved the app to an Angular development approach that cleaned up the code and allowed to develop API tools for use with a mobile app that JS Tech team developed.",
+      "category": ["Software development", "Business Solutions"],
+      "client": ["Precision Research"],
+      "timeline":"6 Months",
+      "tags": ["Surveys", "Development", "Business Solutions", "Angular"],
+
+      "relatedPost1":{
+        "image": "mccollege.png",
+        "id": 3,
+        "projectName": "Midwestern Career College"
+      },
+
+      "relatedPost2":{
+        "image": "drco.png",
+        "id": 5,
+        "projectName": "DRCO"
+      }
+    },
+    {
+      "id": 5,
+      "image": "enduracare.png",
+      "content":"<p>Performed service:</p><ul><li>“Discovery”and “interview”phase to clarify business needs</li><li>Architectthe backend (UI) and frontend(database), setup LAMP infrastructure for servers and services</li><li>Deployand maintainproject management (JIRA) and code repository (Git, BitBucket)</li><li>Developcode in Angular, jQuery, Javascript, MySQL, SQL, HTML, CSS, Bootstrap</li><li>Responsible for the entire technical direction of our platform</li></ul>",
+      "category": ["Software Development", "Education"],
+      "client": ["AR PROACTIVE"],
+      "timeline":"4 Years",
+      "tags": ["Digital Agency", "Web Design", "Angular", "Javascript"],
+      "relatedPost1":{
+        "image": "drco.png",
+        "id": 5,
+        "projectName": "DRCO"
+      },
+
+      "relatedPost2":{
+        "image": "cps.png",
+        "id": 1,
+        "projectName": "App Landing page"
+      }
+    },
+    {
+        "id": 6,
+        "image": "drco.png",
+        "content":"<p>DRCO is an intuitively designed, web-based intervention support system currently under development for K-12 schools. DRCO provides educators, intervention specialists, and school-based mental health professionals the tools needed for a wide variety of high quality behavior supports. </p>",
+        "category": ["Software development", "UX/UI"],
+        "client": ["JTR Studio"],
+        "timeline":"8 Months",
+        "tags": ["Education", "Web application", "Angular", "Laravel", "PHP"],
+        "relatedPost1":{
+            "image": "opinionwizard.png",
+            "id": 4,
+            "projectName": "Prospect Resources"
+        },
+
+        "relatedPost2":{
+            "image": "enduracare.png",
+            "id": 6,
+            "projectName": "AR PROACTIVE"
+        }
+    }
+]

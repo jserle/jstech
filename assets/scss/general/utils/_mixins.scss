@@ -1,0 +1,84 @@
+// ----------------------------------------------
+//   ALL MIXIN FUNCTIONS
+// ----------------------------------------------
+
+@mixin transition($value){
+    transition: $value;
+    -webkit-transition: $value;
+}
+
+@mixin transform($value){
+    transform: $value;
+    -webkit-transform: $value;
+}
+
+@mixin transition-delay($value){
+    transition-delay: $value;
+    -webkit-transition-delay: $value;
+}
+
+// set postions: fixed absolute through css params
+@mixin position($pos, $top:null, $right:null, $bottom:null, $left:null, $index:null) {
+    position: $pos;
+    top: $top;
+    left: $left;
+    right: $right;
+    bottom: $bottom;
+    z-index: $index
+}
+
+// set borders through css params
+@mixin border($direction, $width, $style, $color) {
+    @if($direction==left) {
+        border-left: $width $style $color;
+    }
+    @else if($direction==right) {
+        border-right: $width $style $color;
+    }
+    @else if($direction==top) {
+        border-top: $width $style $color;
+    }
+    @else if($direction==bottom) {
+        border-bottom: $width $style $color;
+    }
+    @else {
+        border: $width $style $color;
+    }
+}
+
+// add grediant
+@mixin gradient($grad,$clip1:null,$clip2:null,$origin:null){
+    background-image: $grad;
+    background-clip: $clip1, $clip2;
+    background-origin: $origin;
+}
+
+// Add text grediant
+@mixin text-gradient($gred){
+    @include gradient($gred);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+
+// Grey the image
+@mixin grayScale($percent){
+    filter: grayscale($percent);
+    -webkit-filter: grayscale($percent);
+}
+
+
+@mixin animation($name){
+    -webkit-animation-name: $name;
+    animation-name: $name;
+}
+
+@mixin animation-duration($value){
+    -webkit-animation-duration: $value;
+    animation-duration: $value;
+}
+
+@mixin animation-function($func){
+    -webkit-animation-timing-function: $func;
+    animation-timing-function: $func;
+}

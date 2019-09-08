@@ -1,0 +1,1 @@
+{"version":3,"file":"../../../scss/customStyles/components/contact-us-form.css","sources":["customStyles/components/contact-us-form.scss"],"sourcesContent":[".contact-us-form {\n  .btn {\n    font-family: \"GothamProMedium\", sans-serif;\n    font-size: 22px;\n  }\n}\n"],"names":[],"mappings":"AAAA,AACE,gBADc,CACd,IAAI,CAAC;EACH,WAAW,EAAE,6BAA6B;EAC1C,SAAS,EAAE,IAAI,GAChB"}
