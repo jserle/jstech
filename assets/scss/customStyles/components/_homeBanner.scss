@@ -22,10 +22,14 @@
     }
    }
   @media(max-width: 992px) {
+    .buttons-block {
+      margin-top: 0!important;
+    }
     h1 {
-      font-size: 44px;
+      font-size: 35px;
       span.typewrapper {
-        font-size: 20px;
+        font-size: 16px;
+        padding-top: 15px;
       }
     }
     .btn {
@@ -33,6 +37,7 @@
     }
   }
   @media(max-width: 576px) {
+
     h1 {
       font-size: 35px;
       span.typewrapper {
@@ -42,5 +47,10 @@
     .btn {
       margin-right: 0!important;
     }
+  }
+}
+@media (max-width: 992px) {
+  .scroll-down {
+    display: none;
   }
 }

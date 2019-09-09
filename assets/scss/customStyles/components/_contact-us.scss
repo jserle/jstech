@@ -1,0 +1,19 @@
+.contact-us {
+  .address-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px;
+  }
+  .contact-us-form {
+    padding: 75px 100px;
+  }
+  @media(max-width: 1200px) {
+    .address-container {
+      padding: 50px 45px;
+    }
+    .contact-us-form {
+      padding: 50px 45px;
+    }
+  }
+}

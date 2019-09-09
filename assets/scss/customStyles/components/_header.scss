@@ -8,14 +8,34 @@
     max-width: 322px;
   }
   .navbar-nav {
-
     @media(min-width: 992px) {
+
       .menu-arrow{
         top: -42px
       }
       width: 75%;
       display: flex;
       justify-content: space-between;
+
+    }
+    @media(max-width: 992px) {
+      background-color: transparent;
+      a.nav-link{
+        color: white;
+      }
     }
   }
+  @media(max-width: 992px) {
+    padding: 15px 15px;
+  }
+  .navbar-collapse{
+    .navbar-nav {
+      @media(max-width: 992px) {
+        a.nav-link{
+          color: white;
+        }
+      }
+    }
+  }
+
 }
