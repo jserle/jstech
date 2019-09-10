@@ -41,7 +41,7 @@
     {
       "id": 3,
       "image": "mccollege.png",
-      "content":"<p>This is dummy copy. It is not meant to be read. It has been placed here solely to demonstrate the look and feel of finished, typeset text. Only for show. He who searches for meaning here will be sorely disappointed. These words are here to provide the reader with a basic impression of how actual text will appear in its final presentation.</p><p>It’s Greek to you. Unless, of course, you’re Greek, in which case, it really makes no sense. Why, you can’t even read it! It is strictly for mock-ups. You may mock it up as strictly as you wish.</p>",
+      "content":"<p>Midwestern Career College is a community college based on Chicago, IL, providing an outstanding path into a number of key careers. Known for its commitment to providing high quality education, MCC is proud to have graduates placed at trusted companies and organizations throughout the Chicago area and beyond.</p><p>When MCC needed a complete website overhaul, they heard about JS Technology Solutions by word of mouth, and engaged us for a thorough needs assessment and project plan. Working closely with their management team, we iterated on various aspects of the project, from conception to design, to data model, project build, deployment and testing. Our efforts enabled MCC to take complete ownership of the ongoing site maintenance after the project was completed. Most importantly, the site carries the branding and theming requirements of MCC, emphasizing the school's focus on updated technology and providing value to its students, their families, and communities.</p>",
       "category": ["Software development", "Education"],
       "client": ["Midwestern Career College"],
       "timeline":"6 Months",
