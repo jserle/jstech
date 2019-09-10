@@ -8,9 +8,9 @@
         "timeline":">2 years",
         "tags": ["Education", "Product", "Angular"],
         "relatedPost1":{
-          "image": "opinionwizard.png",
+          "image": "drco.png",
           "id": 6,
-          "projectName": "Opinionwizard"
+          "projectName": "DRCO"
         },
         "relatedPost2":{
           "image": "prospectResources_.png",
@@ -55,7 +55,7 @@
       "relatedPost2":{
         "image": "opinionwizard.png",
         "id": 4,
-        "projectName": "AR PROACTIVE"
+        "projectName": "Opinion Wizard"
       }
     },
     {
@@ -74,9 +74,9 @@
       },
 
       "relatedPost2":{
-        "image": "drco.png",
+        "image": "enduracare.png",
         "id": 5,
-        "projectName": "DRCO"
+        "projectName": "AR PROACTIVE"
       }
     },
     {
@@ -88,15 +88,15 @@
       "timeline":"4 Years",
       "tags": ["Digital Agency", "Web Design", "Angular", "Javascript"],
       "relatedPost1":{
-        "image": "drco.png",
-        "id": 5,
-        "projectName": "DRCO"
+        "image": "opinionwizard.png",
+        "id": 4,
+        "projectName": "Opinion Wizard"
       },
 
       "relatedPost2":{
-        "image": "cps.png",
-        "id": 1,
-        "projectName": "App Landing page"
+        "image": "drco.png",
+        "id": 6,
+        "projectName": "DRCO"
       }
     },
     {
@@ -108,15 +108,15 @@
         "timeline":"8 Months",
         "tags": ["Education", "Web application", "Angular", "Laravel", "PHP"],
         "relatedPost1":{
-            "image": "opinionwizard.png",
-            "id": 4,
-            "projectName": "Prospect Resources"
+            "image": "enduracare.png",
+            "id": 5,
+            "projectName": "AR PROACTIVE"
         },
 
         "relatedPost2":{
-            "image": "enduracare.png",
-            "id": 6,
-            "projectName": "AR PROACTIVE"
+            "image": "cps.png",
+            "id": 1,
+            "projectName": "GoCPS"
         }
     }
 ]
