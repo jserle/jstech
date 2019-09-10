@@ -2,7 +2,7 @@
     {
         "id": 1,
         "image": "cps.png",
-        "content":"<p>GoCPS allows families to learn, research, explore, and apply to nearly every CPS school and program through one online platform. The site currently serves over 1 million parents and students annually, providing families with critical information, functioning as the gateway to finding the right school for students. </p><p>JS Technology Solutions provided the initial development as well as ongoing updates, enhancements and support, delivering the technological solutions for Chicago Public Schools' needs using modern technologies as Angular, Google API, Fusion Tables, and responsive web development. <a href=\"https://news.wttw.com/2017/05/17/new-gocps-high-school-application-site-goes-live\" target=\"_blank\">View press release</a>.",
+        "content":"<p>GoCPS allows families to learn, research, explore, and apply to nearly every CPS school and program through one online platform. The site currently serves over 1 million parents and students annually, providing families with critical information, functioning as the gateway to finding the right school for students. </p><p>JS Technology Solutions provided the initial development as well as ongoing updates, enhancements and support, delivering the technological solutions for Chicago Public Schools' needs using modern technologies such as Angular, Google API, Fusion Tables, and responsive web development. </p><p><a href=\"https://news.wttw.com/2017/05/17/new-gocps-high-school-application-site-goes-live\" target=\"_blank\">View press release</a>.</p>",
         "category": ["Software Development", "UX/UI", "Education"],
         "client": ["Chicago Public Schools"],
         "timeline":">2 years",
