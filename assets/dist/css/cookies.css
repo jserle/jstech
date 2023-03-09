@@ -1,0 +1,12 @@
+.cookies {
+    display: none;
+    bottom: 0;
+    z-index: 1000;
+}
+
+@media screen and (max-width: 768px){
+    .cookies .btn {
+        font-size: 16px!important;
+        min-width: 236px;
+    }
+}
