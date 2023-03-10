@@ -2,11 +2,28 @@
     display: none;
     bottom: 0;
     z-index: 1000;
+
+}
+.cookies .btn {
+    min-width: 190px;
+    text-transform: none;
+}
+.content.privacy {
+    font-size: 22px;
 }
 
+@media screen and (min-width: 576px){
+    .footer.privacy {
+        position: fixed;
+        bottom: 0;
+    }
+}
 @media screen and (max-width: 768px){
     .cookies .btn {
         font-size: 16px!important;
         min-width: 236px;
+    }
+    .content.privacy {
+        font-size: 16px;
     }
 }
