@@ -29,6 +29,7 @@
     <link rel="stylesheet" href="assets/dist/css/plugins.css"> <!-- css bundle -->
 
     <!--=== default css ===-->
+    <link rel="stylesheet" href="assets/dist/css/cookies.css">
     <link rel="stylesheet" href="assets/dist/css/style.css">
     <link rel="stylesheet" href="assets/dist/css/theme-1.css">
 
@@ -762,6 +763,28 @@ and scale with less overhead. We make outsourcing more accessible by leveraging 
             </div>
         </section>
     </div>
+    <!-- **************************************-->
+    <!-- **************Cookies popup**************-->
+    <!-- **************************************-->
+    <div class="cookies position-fixed align-bottom gred-bg fixed-nav w-100" id="cookies">
+        <div class="container">
+            <div class="row py-3 py-md-4">
+                <div class="col-12 col-md-9">
+                    <p class="pe-md-4 white-text text-center text-md-left mb-3 mb-md-0">
+                        This site uses cookies and services for collecting technical data of visitors (data about IP-address, location, etc.) to ensure operability and improve the quality of service. By continuing to use our site, you automatically agree to the use of these technologies.
+                    </p>
+                </div>
+                <div class="col-12 col-md-3 justify-content-center d-flex justify-content-md-end align-items-center flex-column">
+                    <button class="btn btn-white mt-0" id="btn-cookies">
+                        Accept
+                    </button>
+                    <a href="assets/pages/privacy-policy.html" class="btn btn-white">
+                        View more
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- **************************************-->
     <!-- **************Footer**************-->
@@ -837,6 +860,7 @@ and scale with less overhead. We make outsourcing more accessible by leveraging 
         </div>
     </div>
 
+    <script src="assets/dist/js/cookies-popup.js"></script><!-- JS cookies  -->
     <script src="assets/dist/js/plugins.js"></script><!-- JS bundle  -->
     <script src="assets/dist/js/particles.js"></script><!-- App file -->
     <script src="assets/dist/js/general.js"></script><!-- General file -->
