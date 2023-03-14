@@ -38,7 +38,6 @@ const getCookie = (cName) =>{
 const cookieMessage = (cookiesContainer)=>{
 
     if(!getCookie('cookie')){
-        console.log(getCookie('cookie'))
         cookiesContainer.style.display = 'block'
     }
 }
