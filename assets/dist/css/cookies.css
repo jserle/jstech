@@ -2,20 +2,26 @@
     display: none;
     bottom: 0;
     z-index: 1000;
-
+    padding: 15px 30px;
 }
-.cookies .btn {
+.cookies .container-fluid {
+    max-width: 1900px;
+}
+.cookies .btn.cookie-button {
     min-width: 190px;
     text-transform: none;
+    cursor: pointer;
+    padding: 5px 20px;
+    font-size: 16px;
+    white-space: nowrap;
 }
 .content.privacy {
     font-size: 22px;
 }
 
 @media screen and (min-width: 576px){
-    .footer.privacy {
-        position: fixed;
-        bottom: 0;
+    .cookies .btn.cookie-button {
+        min-width: 125px;
     }
 }
 @media screen and (max-width: 768px){
